@@ -5,7 +5,7 @@ using UnityEngine;
 public class movimento : MonoBehaviour
 {
     //variável da velocidade do personagem
-    public int velocidade = 5;
+    [SerializeField] protected int velocidade = 5;
 
     //variáveis dos "inputs" (controles/botões) que nosso jogador está apertando
     float inputVertical;
